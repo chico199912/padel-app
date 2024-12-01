@@ -79,11 +79,27 @@ const LandingPage = () => {
                             The Court is Yours
                         </Typography.Title>
                         <div
-                            className={`md:tw-col-span-8 md:tw-col-end-7 md:tw-ml-[2rem] tw-items-end tw-pb-4`}>
+                            className={`md:tw-col-span-8 md:tw-col-end-7 md:tw-ml-[2rem] tw-pb-4 tw-flex tw-flex-col md:tw-flex-row tw-gap-2 md:tw-gap-2.5 tw-items-start md:tw-items-end`}
+                        >
+                            <Button
+                                style={{minWidth: "162px"}}
+                                className="!tw-text-black"
+                                href={
+                                    "https://playtomic.io/tenant/17522450-b8a8-400f-9c5b-4ce51ce7d85a?utm_source=app_ios&utm_medium=shareutm_source=app_ios&utm_medium=share"
+                                }
+                            >
+                                Agendar Campo
+                            </Button>
                             <ScrollLink to="schedule" smooth={true} duration={500} offset={-40}>
-                                <Button className="tw-bg-transparent">Mais informação</Button>
+                                <Button
+                                    style={{minWidth: "162px"}}
+                                    className="tw-bg-transparent"
+                                >
+                                    Mais informação
+                                </Button>
                             </ScrollLink>
                         </div>
+
                     </div>
                 </div>
                 <div
@@ -95,9 +111,12 @@ const LandingPage = () => {
                             Uma nova experiência de Padel
                         </Typography.Title>
                         <Typography.Text className="tw-mb-4 tw-mt-4" style={{color: 'black'}}>
-                            O Astra Padel é muito mais do que apenas um clube de padel. A nossa missão é promover a paixão
-                            pelo padel e oferecer uma experiência desportiva completa de alta qualidade para todos os nossos
-                            membros. O conceito do Astra Padel passa pelo reforço da ligação entre o desporto e os momentos
+                            O Astra Padel é muito mais do que apenas um clube de padel. A nossa missão é promover a
+                            paixão
+                            pelo padel e oferecer uma experiência desportiva completa de alta qualidade para todos os
+                            nossos
+                            membros. O conceito do Astra Padel passa pelo reforço da ligação entre o desporto e os
+                            momentos
                             de lazer.
                         </Typography.Text>
                     </div>
